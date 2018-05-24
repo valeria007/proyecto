@@ -59,5 +59,5 @@ app.use(function(err, req, res, next) {
 module.exports = app;
 var port = 3000;
 app.listen(port, ()=>{
-  console.long("server running in" + port);
+  console.log("server running in " + port);
 });
